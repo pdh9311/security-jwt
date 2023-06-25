@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dhpark
+    username: dhpark
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  security:
+    user:
+      name: user
+      password: 1234
+
+jwt.secret: secretKey
